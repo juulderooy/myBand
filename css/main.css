@@ -1,0 +1,306 @@
+body {
+
+	font-family: "Courier New";
+    background: url("../images/sideshow1.jpeg");
+    background-size: cover;
+    left: 0;
+    margin-top: -10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+a {
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.aligncenter, div.aligncenter {
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+
+	float: left;
+}
+
+.alignright {
+
+	float: right;
+}
+
+.wrap {
+
+	clear: both;
+	margin:0 auto;
+	width:860px;
+	padding: 1em;
+	text-align: center;
+}
+
+
+
+hr {
+	border-color: white;
+ }
+
+nav {
+
+	top: 0;
+    position: fixed;
+
+	width: 100%;
+    height: 86px;
+	left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	overflow: hidden;
+	background-color: black;
+}
+
+
+nav ul li a {
+
+	padding-right: 30px;
+
+}
+
+nav a {
+
+	display: block;
+	float: left;
+	text-transform: uppercase;
+
+}
+nav ul li img {
+	padding: 10%;
+
+}
+
+nav ul li img:hover {
+    padding: 10%;
+    opacity: 0.7;
+}
+
+footer {
+
+	color: white;
+}
+
+#menu_text1 {
+	margin-top: 30px;
+	position: relative;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#menu_text2 {
+	margin-top: 30px;
+	position: relative;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#menu_text3 {
+	margin-top: 30px;
+	position: relative;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#menu_text4 {
+	margin-top: 30px;
+	position: relative;
+	font-size: 24px;
+	display: inline-block;
+}
+
+#menu_text1:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	margin-top: 25px;
+}
+#menu_text1:hover:after {
+	width: 65%;
+	background: white;
+	margin-top: 25px;
+}
+
+#menu_text2:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	margin-top: 25px;
+}
+#menu_text2:hover:after {
+	width: 83%;
+	background: white;
+	margin-top: 25px;
+}
+
+#menu_text3:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	margin-top: 25px;
+}
+#menu_text3:hover:after {
+	width: 80%;
+	background: white;
+	margin-top: 25px;
+}
+
+#menu_text4:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+	margin-top: 25px;
+}
+#menu_text4:hover:after {
+	width: 87%;
+	background: white;
+	margin-top: 25px;
+}
+
+#logo:hover{
+    filter: alpha(opacity=50);
+    opacity: 1.0;
+}
+
+
+#text {
+    background-color: black;
+    width: 33%;
+    float: left;
+}
+
+div.transbox {
+    margin: 180px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 33%;
+	margin-bottom: 3%;
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.menu_rechts{
+    float: right;
+    margin-top: 8px;
+}
+
+#logo2{
+    height: 56px;
+
+}
+
+.logos{
+    margin-top: 8px;
+}
+
+.artikel{
+	padding-bottom: 10px;
+	border-width: 2px;
+	border-bottom-style: solid;
+	margin-right: 20px;
+}
+
+
+
+section{
+	margin-top: 7em;
+	background-color: #eeeeee;
+	opacity: 0.7;
+	padding: 1em;
+	padding-left: 25px;
+	width: 60%;
+	float: left;
+}
+
+.background{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.width {
+	width: 33%;
+}
+
+#despo{
+	height: 562px;
+	margin-top: 5px;
+
+
+}
+
+.opening{
+
+	text-align: center;
+	padding-top: 6em;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-left: -8px;
+	margin-right: -8px;
+
+}
+
+h1{
+	text-align: center;
+	margin-top: 2em;
+}
+
+.box{
+	text-align: center;
+}
+
+.mySlides{
+	display: none;
+	height: 640px;
+}
+
+.slideshow{
+	margin-top: 6em;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+footer.wrap{
+	background-color: #ffffff;
+
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+
+}
